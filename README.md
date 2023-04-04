@@ -1,7 +1,7 @@
 # skeleton-of-the-application-controlling-the-3d-printer
 skeleton of a console application in C# communicating via a serial port.
 
-The application sends the control data from the txt file through the uart port to the control board.
+The application sends the control data from the txt file through the UART port to the control board.
 
 I have included a sample txt control file in the repository (Test_file.txt).
 
