@@ -1,4 +1,4 @@
-ï»¿using System.IO.Ports;
+using System.IO.Ports;
 using System.Management;
 using System.Text;
 
@@ -18,7 +18,7 @@ namespace PortConsol
 
             setup(); //sets the serial port
 
-            // metoda asynhroniczna
+            // asynchronous method
 
             Task task1 = Task.Run(() => ProgramStop());
             Task task2 = Task.Run(() => SendData(ConfirmationReadiness));
@@ -144,7 +144,7 @@ namespace PortConsol
 
                 catch (Exception ex)
                 {
-                    Console.WriteLine("WystÄ…piÅ‚ bÅ‚Ä…d: " + ex.Message);
+                    Console.WriteLine("Wyst¹pi³ b³¹d: " + ex.Message);
                 }
                 con = false;
 
